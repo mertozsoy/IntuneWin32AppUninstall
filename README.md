@@ -1,6 +1,6 @@
-# AtaUninstallPack
+# IntuneWin32AppUninstall
 
-**AtaUninstallPack** is a PowerShell GUI tool that scans the Windows Registry for MSI-installed applications and automatically generates **Microsoft Intune-compatible Detection and Remediation scripts**.
+**IntuneWin32AppUninstall** is a PowerShell GUI tool that scans the Windows Registry for MSI-installed applications and automatically generates **Microsoft Intune-compatible Detection and Remediation scripts**.
 
 ## Features
 
@@ -51,7 +51,7 @@
 ## Usage
 
 ```powershell
-.\AtaUninstallPack.ps1
+.\IntuneWin32AppUninstall.ps1
 ```
 
 ## Documentation
