@@ -28,3 +28,6 @@ temp/
 
 # Exports folder
 exports/
+
+# Local project memory bank
+memory-bank/
