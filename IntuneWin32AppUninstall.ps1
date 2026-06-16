@@ -278,7 +278,7 @@ if ($script:allApps.Count -eq 0) {
 [xml]$xaml = @"
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="AtaUninstallPack"
+        Title="IntuneWin32AppUninstall"
         Width="1200" Height="920" MinWidth="960" MinHeight="600"
         Background="#F9F9F9"
         FontFamily="Segoe UI"
@@ -388,7 +388,7 @@ if ($script:allApps.Count -eq 0) {
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center">
-                    <TextBlock Margin="0,0,0,0" Text="AtaUninstallPack" FontSize="20" FontWeight="600" VerticalAlignment="Center" Foreground="#1A1C1C"/>
+                    <TextBlock Margin="0,0,0,0" Text="IntuneWin32AppUninstall" FontSize="20" FontWeight="600" VerticalAlignment="Center" Foreground="#1A1C1C"/>
                 </StackPanel>
                 <Border Grid.Column="1" Height="36" CornerRadius="6" Background="#EEEEEE" Margin="48,0,48,0">
                     <Grid>
